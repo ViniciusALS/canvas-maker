@@ -1,0 +1,64 @@
+<mat-toolbar>
+
+	<a [routerLink]="['/']" class='logo'>
+		<mat-icon svgIcon="canvasMakerLogo" class="logo"></mat-icon>
+	
+		<h1 class="logo-text">Canvas Maker</h1>
+	</a>
+
+
+	<span class="example-spacer"></span>
+
+	<button mat-button>Log in</button>
+
+	<button mat-raised-button class="create-account-btn">Create account</button>
+
+</mat-toolbar>
+
+<div class="grid-row">
+	<div class="grid-column main-section">
+
+		<h1>Start planning your new business</h1>
+	
+		<h2>Easy.</h2>
+		<h2>Quick.</h2>
+		<h2>Inexpensive.</h2>
+
+		<p>Canvas Maker is  a tool based on the BMC business model template to help you structure your business idea into reality  by pin pointing key aspects of your business model and operations.</p>	
+	
+	</div>
+	<div class="grid-column form-section">
+
+		<h2>Create an Account for Free</h2>
+
+		<mat-card>
+			<form>
+				<mat-form-field appearance="outline">
+					<mat-label>Username</mat-label>
+					<input matInput>
+				</mat-form-field>
+			
+				<mat-form-field appearance="outline">
+					<mat-label>Email</mat-label>
+					<input matInput>
+				</mat-form-field>
+
+				<mat-form-field appearance="outline">
+					<mat-label>Password</mat-label>
+					<input matInput>
+				</mat-form-field>
+
+				<mat-form-field appearance="outline">
+					<mat-label>Confirm your password</mat-label>
+					<input matInput>
+				</mat-form-field>
+
+				<p>When creating a new account, you agree to our <a href="#">terms</a> and <a href='#'>privacy policy.</a></p>
+
+				<button mat-raised-button color="primary">Create account</button>
+			</form>
+		</mat-card>
+		<p>Already have an account? <a href="#">Log in</a></p>
+
+	</div>
+</div>

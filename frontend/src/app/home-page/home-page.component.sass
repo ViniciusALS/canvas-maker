@@ -1,0 +1,95 @@
+$green: #219653
+    
+mat-toolbar
+    background: none
+
+    .create-account-btn
+        background-color: #333
+        color: #F2F2F2
+
+.example-spacer
+    flex: 1 1 auto
+
+
+.logo
+
+    display: flex
+    flex-direction: row
+
+    text-decoration: none
+
+    mat-icon
+        $logo-dimentions: 1.7em
+
+        color: #222
+        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.15))
+
+        margin-right: 0.8em
+        width: $logo-dimentions
+        height: $logo-dimentions
+
+    h1
+        color: #222
+        font-family: 'Montserrat', sans-serif
+
+.grid-row
+    display: flex
+    padding: 5em 7em
+
+    .main-section
+
+        flex: 60%
+
+        h1
+            font-family: 'Montserrat', sans-serif
+            font-weight: 700
+            font-size: 48px
+            color: $green
+
+            width: 470px
+            line-height: normal
+
+            margin-bottom: 0.8em
+
+        h2
+            font-family: 'Montserrat', sans-serif
+            font-weight: 700
+            font-size: 32px
+
+        p 
+            margin-top: 1.7em
+
+            font-size: 22px
+            letter-spacing: 0.01em
+            line-height: 132.7%
+
+            width: 576px
+
+
+    .form-section
+
+        flex: 40%
+
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        h2 
+            font-family: 'Montserrat', sans-serif
+            font-weight: 700
+            font-size: 28px
+
+        mat-card
+            padding: 2em
+            width: 55%
+            margin-bottom: 1em
+
+            form
+                display: flex
+                flex-direction: column
+
+
+                button
+                    width: 50%
+                    align-self: center
+                    background-color: $green
