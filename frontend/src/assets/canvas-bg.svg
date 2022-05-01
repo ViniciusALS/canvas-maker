@@ -1,38 +1,3 @@
 <svg width="777" height="460" viewBox="0 0 777 460" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="path-1-inside-1_216_31" fill="white">
-<path d="M158.125 0H301.875V143.75H158.125V0Z"/>
-</mask>
-<path d="M158.125 0H301.875V143.75H158.125V0Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-1-inside-1_216_31)"/>
-<mask id="path-2-inside-2_216_31" fill="white">
-<path d="M0 0H143.75V301.875H0V0Z"/>
-</mask>
-<path d="M0 0H143.75V301.875H0V0Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-2-inside-2_216_31)"/>
-<mask id="path-3-inside-3_216_31" fill="white">
-<path d="M474.375 158.125H618.125V301.875H474.375V158.125Z"/>
-</mask>
-<path d="M474.375 158.125H618.125V301.875H474.375V158.125Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-3-inside-3_216_31)"/>
-<mask id="path-4-inside-4_216_31" fill="white">
-<path d="M474.375 0H618.125V143.75H474.375V0Z"/>
-</mask>
-<path d="M474.375 0H618.125V143.75H474.375V0Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-4-inside-4_216_31)"/>
-<mask id="path-5-inside-5_216_31" fill="white">
-<path d="M316.25 0H460V301.875H316.25V0Z"/>
-</mask>
-<path d="M316.25 0H460V301.875H316.25V0Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-5-inside-5_216_31)"/>
-<mask id="path-6-inside-6_216_31" fill="white">
-<path d="M380.938 316.25L380.937 460L-6.28351e-06 460L0 316.25L380.938 316.25Z"/>
-</mask>
-<path d="M380.938 316.25L380.937 460L-6.28351e-06 460L0 316.25L380.938 316.25Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-6-inside-6_216_31)"/>
-<mask id="path-7-inside-7_216_31" fill="white">
-<path d="M776.25 316.25L776.25 460L395.312 460L395.312 316.25L776.25 316.25Z"/>
-</mask>
-<path d="M776.25 316.25L776.25 460L395.312 460L395.312 316.25L776.25 316.25Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-7-inside-7_216_31)"/>
-<mask id="path-8-inside-8_216_31" fill="white">
-<path d="M158.125 158.125H301.875V301.875H158.125V158.125Z"/>
-</mask>
-<path d="M158.125 158.125H301.875V301.875H158.125V158.125Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-8-inside-8_216_31)"/>
-<mask id="path-9-inside-9_216_31" fill="white">
-<path d="M632.5 0H776.25V301.875H632.5V0Z"/>
-</mask>
-<path d="M632.5 0H776.25V301.875H632.5V0Z" stroke="#F2F2F2" stroke-opacity="0.7" stroke-width="40" mask="url(#path-9-inside-9_216_31)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M316.25 0V301.875H460V0H316.25ZM336.25 20H440V281.875H336.25V20ZM632.5 0V301.875H776.25V0H632.5ZM652.5 20H756.25V281.875H652.5V20ZM0 301.875H143.75V0H0V301.875ZM20 281.875V20H123.75V281.875H20ZM158.125 301.875H301.875V158.125H158.125V301.875ZM178.125 178.125V281.875H281.875V178.125H178.125ZM301.875 143.75V0H158.125V143.75H301.875ZM281.875 123.75H178.125V20H281.875V123.75ZM6.10352e-05 316.25L5.47516e-05 460H380.938V316.25L6.10352e-05 316.25ZM360.938 336.25L20.0001 336.25L20.0001 440H360.938V336.25ZM395.312 460H776.25V316.25L395.312 316.25V460ZM415.312 336.25V440H756.25V336.25L415.312 336.25ZM617.75 301.75V158H474V301.75H617.75ZM597.75 281.75H494V178H597.75V281.75ZM618.125 143.75V0H474.375V143.75H618.125ZM598.125 123.75H494.375V20H598.125V123.75Z" fill="#000000" fill-opacity="0.05"/>
 </svg>

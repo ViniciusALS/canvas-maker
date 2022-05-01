@@ -1,14 +1,14 @@
-$green: #219653
+@import "../../_variables.sass"
     
 mat-toolbar
     background: none
 
     .create-account-btn
-        background-color: #333
-        color: #F2F2F2
+        background-color: $primaryGrey
+        color: $whiteText
 
     button
-        margin: 0 1em
+        margin: 0 0.5em
 
 .example-spacer
     flex: 1 1 auto
@@ -24,7 +24,7 @@ mat-toolbar
     mat-icon
         $logo-dimentions: 1.7em
 
-        color: #222
+        color: $primaryGrey
         filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.15))
 
         margin-right: 0.8em
@@ -32,12 +32,15 @@ mat-toolbar
         height: $logo-dimentions
 
     h1
-        color: #222
+        color: $primaryGrey
         font-family: 'Montserrat', sans-serif
 
 .grid-row
     display: flex
     padding: 5em 7em
+
+    @media (max-width: 1350px)
+        padding: 5em 4em
 
     .main-section
 
@@ -46,32 +49,50 @@ mat-toolbar
         h1
             font-family: 'Montserrat', sans-serif
             font-weight: 700
-            font-size: 48px
-            color: $green
+            font-size: $homePageTitleTextL
+            color: $primaryGreen
 
-            width: 470px
+            width: $homePageTitleBox
             line-height: normal
 
             margin-bottom: 0.8em
 
+            @media (max-width: 1350px)
+                font-size: $homePageTitleTextM
+                
+
         h2
             font-family: 'Montserrat', sans-serif
             font-weight: 700
-            font-size: 32px
+            font-size: $homePageSubtitleTextL
+            line-height: 1em
+
+            @media (max-width: 1350px)
+                font-size: $homePageSubtitleTextM
 
         p 
             margin-top: 1.7em
 
-            font-size: 22px
+            font-size: $homePageParagraphTextL
             letter-spacing: 0.01em
             line-height: 132.7%
 
-            width: 576px
+            width: $homePageParagraphBox
+
+            @media screen and (max-width: 1325)
+                font-size: $homePageParagraphTextM 
+
+        .canvas-bg
+            position: relative
+            right: -12vw
+            top: -294px
+            width: 45vw
+            height: calc(45vw * 0.59)
 
 
     .form-section
 
-        flex: 40%
+        flex: 30%
 
         display: flex
         flex-direction: column
@@ -84,7 +105,7 @@ mat-toolbar
 
         mat-card
             padding: 2em
-            width: 55%
+            width: $createAccountFormBox
             margin-bottom: 1em
 
             mat-label
@@ -98,14 +119,7 @@ mat-toolbar
                 button
                     width: 50%
                     align-self: center
-                    background-color: $green
+                    background-color: $primaryGreen
                     
                     font-size: 16px
                     text-transform: uppercase
-
-
-.canvas-bg
-    position: relative
-    right: -240px
-    top: -294px
-    z-index: -1
